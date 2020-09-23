@@ -1,4 +1,4 @@
-import beg from './components/beg';
-import pickle from './components/pickle';
+import parseCookie from './utility/ParseCookie';
+import parseURL from './utility/ParseURL';
 
-export {beg, pickle}
+export { parseCookie, parseURL };
