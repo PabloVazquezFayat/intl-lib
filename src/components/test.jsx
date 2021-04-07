@@ -6,7 +6,7 @@ export default (props) => {
     const parent = document.querySelector(props.parent);
     const backgroundImage = `background-image: url(${props.background});`;
 
-    const div = (
+    const heroBanner = (
         <div id="ge_new-hero" className='bannerStyle' style={backgroundImage}>
             <div className='ge_hero-text'>
                 <h1>HERO BANNER TEXT HERE</h1>
@@ -16,6 +16,6 @@ export default (props) => {
         </div>
     );
 
-    parent.append(div);
+    parent.append(heroBanner);
 
 }

@@ -6,7 +6,7 @@ module.exports = {
    filename: 'promo-studio-lib.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'ge',
-    libraryTarget: 'umd'
+    // libraryTarget: 'umd'
   },
   resolve: {
     extensions: ['*', '.js', '.jsx']
